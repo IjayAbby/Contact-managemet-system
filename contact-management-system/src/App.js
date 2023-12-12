@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import ContactForm from "./components/addcontact";
+import ContactList from "./components/listContacts";
 
 // Main App component
 const App = () => {
@@ -14,13 +15,14 @@ const App = () => {
   };
 
   const deleteContact = (id) => {
-    // delete contact
+    setContacts(contacts.filter((contact) => contact.id !== id));
   };
 
   return (
     <div>
       <h2>Contact Manager</h2>
       <ContactForm addContact={addContact} />
+      <ContactList contacts={contacts} editContact={editContact} deleteContact={deleteContact} />
     </div>
   );
 };
