@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Contact Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a contact management application that allows users to maintain a list of contacts. The core functionalities include a form for entering new contact information with fields for name, email, and phone number, which are validated using regular expressions. Users can view the entire contact list and have the ability to edit or delete individual contacts. The application will feature robust error handling to ensure smooth operation and user experience. This tool will streamline the process of managing contact details, making it simple and efficient for users to keep their contact information organized and up-to-date.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Live Demo
 
-### `npm start`
+Check out a live demo of this project [here.](https://app.netlify.com/sites/jolly-bublanina-ee5754/deploys/6578a661918fd800087ef4aa)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- A form to add new contacts with fields for name, email, and phone number.
+- Validation of inputs using Regular Expressions.
+- A display of all contacts with options to edit and delete each contact.
+- Functionality to edit the details of an existing contact.
+- An option to delete a contact and remove it from the list.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository to your local machine.
+2. Install the project dependencies by running `npm install` in the project directory.
+3. Start the local development server by running `npm run dev`.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Open the application in your browser at `http://localhost:3000`.
+2. Add a contact with details such as name, email and phone number.
+3. Edit contact details, restore changes.
+4. Delete contact.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+:handshake: Contributions, issues and feature requests are welcome!
+Start by:
 
-### `npm run eject`
+    1. Forking the project
+    2. Cloning the project to your local machine
+    3. cd into the project directory
+    4. Run git checkout -b your-branch-name
+    5. Make your contributions
+    6. Push your branch up to your forked repository
+    7. Open a Pull Request with a detailed description to the main branch of the original project for a review
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Please feel free to contribute to any of these!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Feel free to check the [issues page](https://github.com/IjayAbby/Contact-managemet-system/issues).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+👤 **Ijay Abby**
 
-## Learn More
+- Github: [@IjayAbby](https://github.com/IjayAbby)
+- Twitter: [@Ijay_js](https://twitter.com/Ijay_js)
+- LinkedIn: [Abigael Nyangasi](https://www.linkedin.com/in/ijayabby4/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Show your support
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Give a :star2: if you like this project! :blush:
 
-### Code Splitting
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Thanks to [w3schools](https://react.dev/)
+- Thanks to [React documentation](https://react.dev/)
+# 📝 License
 
-### Analyzing the Bundle Size
+This project is [MIT](https://github.com/IjayAbby/Contact-managemet-system/blob/main/LICENSE) licensed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding!
