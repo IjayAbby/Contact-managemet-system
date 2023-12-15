@@ -5,7 +5,7 @@ This is a contact management application that allows users to maintain a list of
 
 ## Live Demo
 
-Check out a live demo of this project [here.](https://app.netlify.com/sites/jolly-bublanina-ee5754/deploys/6578a661918fd800087ef4aa)
+Check out a live demo of this project [here.](https://ijayabby.github.io/Contact-managemet-system/)
 
 ## Features
 
